@@ -268,28 +268,24 @@ const BookingForm: React.FC<BookingFormProps> = ({
         <ul className="list-disc pl-5 space-y-2 text-sm">
           <li>
             Apabila sudah melakukan payment maka tidak bisa melakukan
-            cancel/refund.
+            cancel/refund atau reschedule.
           </li>
           <li>
-            Untuk jadwal yang sudah di reservasi tidak bisa di reschedule.
+            Jika turun hujan sebelum jam sesi dimulai, maka jadwal bisa di reschedule.
           </li>
           <li>
-            Jika turun hujan di jam sesi dimulai, maka jadwal bisa di
-            reschedule.
-          </li>
-          <li>
-            Jika sesi sudah berjalan lebih dari 30 menit & terjadi hujan, fee
-            tidak di refund dan tidak bisa di reschedule.
+            Jika sesi sudah berjalan 30 menit & terjadi hujan, fee tidak di refund dan tidak bisa di reschedule.
           </li>
           <li>
             Untuk sewa raket apabila sudah melakukan payment maka tidak bisa
             cancel/refund atau reschedule dengan alasan apapun.
           </li>
           <li>
-            Segala Kerusakan Property di kindy padel akan menjadi tanggung jawab
+            Segala Kerusakan properti di Kindy Padel akan menjadi tanggung jawab
             pemain.
           </li>
           <li>Pembayaran melalui transfer BCA 6375058549 Bilal Edwan.</li>
+          <li>Setelah melakukan payment harap melakukan konfirmasi melalui WhatsApp kamu atau melalui DM Instagram @kindypadel.</li>
         </ul>
       </div>
 
